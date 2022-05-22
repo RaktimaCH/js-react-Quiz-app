@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(12, 12, 12);
+}
+.container{
+    padding: 50px;
+    max-width: 500px;
+    margin: auto;
+    width: 40vh;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 17px;
+    box-shadow:0px 0px 5px 5px #006666;
+    background: linear-gradient(to bottom, #006666 0%, #00cc66 100%);
+}
+button{
+    padding: 10px 40px 10px 40px;
+    width: 40vh;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+    color: black;
+    border: 1px solid  wheat;
+    background: linear-gradient(to bottom, #006666 0%, #00cc66 100%);
+}
+.quiz-box>p{
+   
+    color: wheat;
+}
+
+@media (max-width : 600px){
+    body{
+        max-width: 600px;
+    }
+    .container{
+        width: 20vh;
+        
+    }
+    button{
+        padding: 5px 20px 5px 20px;
+        width: 20vh;
+    }
+}
