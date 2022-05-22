@@ -209,7 +209,7 @@ export default function Quiz(){
 
         };
         const handleAgain =(e)=>{
-             setShowScore(showScore == false)
+             setShowScore(showScore === false)
         }
        
 
