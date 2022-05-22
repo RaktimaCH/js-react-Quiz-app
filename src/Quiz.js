@@ -208,8 +208,12 @@ export default function Quiz(){
             }
 
         };
-        const handleAgain =(e)=>{
-             setShowScore(showScore === false)
+    
+    function handleAgain(){
+            
+        setCurrentQuestion(0)
+        setShowScore(showScore === false)    
+     
         }
        
 
